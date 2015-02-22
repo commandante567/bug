@@ -1,0 +1,32 @@
+// Screen
+// ======
+
+@import "grids";
+@import "normalize";
+@import "compass/typography/vertical_rhythm";
+
+/* FONT */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,500,700,400&subset=latin,cyrillic);
+
+
+// Compass Vertical Rhythm Settings
+$base-font-size: 16px; // Sets the base font size
+$base-line-height: 30px; // Sets the base line height
+$round-to-nearest-half-line: true; // Allows compass to round to  multiples of 0.5x line height 
+$rhythm-unit: "rem"; // Sets rhythm unit to rem. Remove to use default em unit.
+
+// Establishes baseline with Compass.
+@include establish-baseline;
+
+
+/* Color */
+
+
+
+/* Main style */
+
+body {
+    font-family:'Roboto', sans-serif;
+}
+
